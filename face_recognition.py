@@ -10,7 +10,7 @@ import numpy as np
 video_capture = cv2.VideoCapture(0)
 
 # Load a sample picture and learn how to recognize it.
-image = face_recognition.load_image_file("/home/neha/Downloads/n/nurr.jpg")
+image = face_recognition.load_image_file("/home/neha/Downloads/n/input_image.jpg")
 face_encoding = face_recognition.face_encodings(image)[0]
 
 
